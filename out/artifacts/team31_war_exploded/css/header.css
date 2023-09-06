@@ -1,0 +1,164 @@
+@charset "UTF-8";
+.hd {
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+
+.tnb_wrap {
+    clear: both;
+    width: 100%;
+    background-color: #8CB964;
+}
+
+.hd_wrap {
+    background-color: #fff;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.hd_wrap::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 190px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    z-index: 15;
+    display: none;
+}
+
+.hd_wrap:hover::before {
+    display: block;
+}
+
+.tnb {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.tnb::after {
+    content: "";
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.tnb .menu {
+    float: right;
+    height: 40px;
+    margin: auto;
+    line-height: 40px;
+}
+
+.tnb .menu li {
+    float: left;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.tnb .menu li a {
+    color: #fff;
+}
+
+.logo {
+    display: block;
+    width: auto;
+    height: 70px;
+    float: left;
+    padding: 10px;
+}
+
+.logo img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.gnb {
+    width: 1080px;
+    height: 0px;
+    position: absolute;
+    left: 50%;
+    margin-left: -540px;
+}
+
+.gnb .menu {
+    clear: both;
+    height: 90px;
+    position: relative;
+}
+
+.gnb .menu::after {
+    content: "";
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+.gnb .menu li {
+    float: left;
+    width: 16%;
+    position: relative;
+    height: 50px;
+}
+
+.gnb .menu li .sub {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 180px;
+    height: 500px;
+    top: 60px;
+    left: 0;
+    z-index: 999;
+}
+
+.hd_wrap:hover .gnb .menu li .sub {
+    visibility: visible;
+    height: 500px;
+    opacity: 1;
+}
+
+.gnb .menu li a.dp1 {
+    display: block;
+    width: 100%;
+    line-height: 88px;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+.gnb .menu li:hover a.dp1 {
+    color: #FACA00;
+    font-weight: bold;
+}
+
+.gnb .menu li .sub li {
+    padding-left: 0px;
+    line-height: 34px;
+    clear: both;
+    width: 180px;
+}
+
+.gnb .menu li .sub li a {
+    display: block;
+    width: 173px;
+    text-align: center;
+    line-height: 50px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.gnb .menu li .sub li:hover a {
+    border-bottom: 3px solid #FACA00;
+}

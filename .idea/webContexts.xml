@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/web/board/motherboard/MotherBoardList1.jsp" value="file://$PROJECT_DIR$/web/board/motherboard" />
+        <entry key="file://$PROJECT_DIR$/web/board/studentboard/getStudentBoard.jsp" value="file://$PROJECT_DIR$/web/board/studentboard" />
+        <entry key="file://$PROJECT_DIR$/web/cs/board/getBoard.jsp" value="file://$PROJECT_DIR$/web/cs/board" />
+        <entry key="file://$PROJECT_DIR$/web/cs/qna/updateQna.jsp" value="file://$PROJECT_DIR$/web/cs/qna" />
+        <entry key="file://$PROJECT_DIR$/web/index.jsp" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/lecture/lectureList.jsp" value="file://$PROJECT_DIR$/web/lecture" />
+        <entry key="file://$PROJECT_DIR$/web/member/idload.jsp" value="file://$PROJECT_DIR$/web/member" />
+        <entry key="file://$PROJECT_DIR$/web/member/join.jsp" value="file://$PROJECT_DIR$/web/member" />
+        <entry key="file://$PROJECT_DIR$/web/setting/head.jsp" value="file://$PROJECT_DIR$/web/setting" />
+      </map>
+    </option>
+  </component>
+</project>

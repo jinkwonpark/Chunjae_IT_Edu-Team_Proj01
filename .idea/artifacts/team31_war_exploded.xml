@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="team31:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/team31_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Chunjae_IT_Edu-Team_Proj01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mariadb.jdbc.java.client" />
+          <element id="library" level="project" name="sun.mail.javax" />
+          <element id="library" level="project" name="javax.mail.api" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="team31/web/Web" />
+    </root>
+  </artifact>
+</component>
